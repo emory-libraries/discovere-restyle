@@ -1,0 +1,1466 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans+Caption:400,700|PT+Sans+Narrow|PT+Sans:400,400i,700,700i|PT+Serif+Caption:400,400i|PT+Serif:400,400i,700,700i'); .table-plain,table {
+    font-family: "PT Sans",sans-serif;
+    font-size: 1em;
+    border-collapse: collapse
+}
+
+* {
+    z-index: auto !important;
+}
+
+body {
+    -ms-font-feature-settings: "kern","liga","pnum";
+    font-feature-settings: "kern","liga","pnum";
+    color: #333;
+    font-family: "PT Serif",serif;
+    font-size: 18px;
+    line-height: 1.5;
+    min-width: auto;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size:1.125em
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "PT Sans Narrow",sans-serif;
+    line-height: 1.2;
+    margin: 1em 0;
+    font-weight: normal
+}
+
+h1 {
+    font-size: 2.01136em
+}
+
+
+h2 {
+    font-size: 1.74901em
+}
+
+h3 {
+    font-size: 1.52087em
+}
+
+h4 {
+    font-size: 1.3225em
+}
+
+h5 {
+    font-size: 1.15em
+}
+
+h6 {
+    font-size: 1em
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+pre,code,samp,kbd {
+    font-family: "PT Mono",monospace
+}
+
+kbd {
+    background-color: #e6e6e6;
+    color: #333;
+    font-size: .9em;
+    padding: .5em;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 0px #333
+}
+
+samp {
+    color: #ccc;
+    background-color: #333;
+    font-size: .9em;
+    padding: .25em .5em
+}
+
+a, a:link, a:visited {
+    color: #002878;
+    text-decoration: underline;
+    transition: color 150ms ease;
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip: ink
+}
+
+a:active,a:focus,a:hover {
+    color: #001e5a
+}
+
+hr {
+    border-bottom: 1px solid #ccc;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 1.5em 0;
+    clear: both
+}
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select[multiple] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    padding: .5em;
+    transition: border-color 150ms ease;
+}
+input, select, optgroup, textarea {
+    display: block;
+    font-family: "PT Serif",serif;
+    font-size: 1em;
+    width: 220px;
+}
+label, input, button, select, textarea {
+    line-height: 1.5;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: 'PT Serif', serif;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+button,input[type="button"],input[type="reset"],input[type="submit"],.btn,a[role=button].btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0));
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "PT Sans",sans-serif;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0));
+    transition: background-color 150ms ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+button:hover,button:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="reset"]:hover,input[type="reset"]:focus,input[type="submit"]:hover,input[type="submit"]:focus,.btn:hover,.btn:focus,a[role=button].btn:hover,a[role=button].btn:focus {
+    background-color: #e8ebf4;
+    background-image: none
+}
+
+caption {
+    text-align: left;
+    font-family: "PT Sans Caption",sans-serif;
+    font-size: .9em
+}
+
+td,th {
+    padding: 0.25em 0.75em;
+    vertical-align: middle
+}
+
+th {
+    font-family: "PT Sans Narrow",sans-serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #666
+}
+
+.table-bordered tbody tr {
+    border-bottom: 1px solid #ccc
+}
+
+.table-striped thead tr {
+    background: #e6e6e6
+}
+
+.table-striped tbody tr:nth-of-type(2n) {
+    background-color: #f5f5f5
+}
+
+.table-striped tfoot tr {
+    border-top: 1px solid #ccc
+}
+#site-footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*Header Styles */
+
+header[role=banner] {
+    background-color: #002878;
+    height: 100px;
+}
+
+header[role=banner] #logo {
+    height: 100px;
+    fill: #fff;
+}
+
+@media (min-width: 800px) {
+
+    header[role=banner] {
+        height: 150px;
+    }
+
+    header[role=banner] #logo {
+        height:150px
+    }
+
+}
+/*End Header Styles*/
+
+body > div {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* .EXLBrowseList #exlidHeaderContainer {
+    margin-top: -1em;
+} */
+
+#exlidUserAreaTile {
+    float: right;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    flex-basis: 100%;
+    /* order: 2; */
+}
+
+#exlidUserAreaTile ul {
+    float: right;
+    height: auto;
+}
+
+#exlidUserAreaRibbon li {
+    background-image: none;
+    height: auto;
+    background-color: transparent;
+    padding-right: .5em;
+}
+
+#exlidUserAreaRibbon li a, #exlidUserAreaRibbon li.EXLUserName {
+    color: #333;
+    font-weight: 400;
+}
+
+#exlidUserAreaRibbon li:last-child > select {
+     display: none;
+}
+
+@media (min-width: 720px) {
+    #exlidUserAreaTile {
+        position: absolute;
+        top: 1em;
+        right:  0;
+        line-height: 1.5;
+        flex-basis: 50%;
+        z-index: 100;
+        /* order: 2; */
+    }
+
+    #exlidUserAreaRibbon li a {
+        color: #fff;
+    }
+
+    #exlidUserAreaRibbon li.EXLUserName {
+        color: #fff;
+    }
+
+}
+
+
+#exlidUserAreaRibbon li span.EXLUserAreaStart {
+    display: none;
+}
+
+#exlidSearchBanner {
+    display: none;
+}
+
+
+#exlidSearchTile {
+    background-image: none;
+    font-size: inherit;
+    height: auto;
+    border:  none;
+}
+
+#exlidSearchTileWrapper {
+    flex-basis: 100%;
+    margin: 0 .5em;
+    /* order: 3; */
+}
+
+#exlidSearchTabs {
+    height: auto;
+    z-index: auto;
+}
+
+#exlidSearchTabs li {
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: auto;
+    overflow: hidden;
+}
+
+#exlidSearchTabs li.EXLSearchTabSelected {
+    height: auto;
+    background: none;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+    font-weight: 400;
+}
+
+#exlidSearchTabs li a {
+    text-decoration: none;
+}
+
+#exlidSearchRibbon {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+}
+
+@media (min-width: 800px) {
+    #exlidSearchRibbon {
+        display: grid;
+        grid-gap: .5em;
+        grid-column-gap: 1em;
+        align-items: center;
+        grid-template-columns: auto 20%;
+        grid-template-rows: repeat(4, 1fr);
+    }    
+}
+
+#exlidSearchRibbon fieldset {
+    float: none;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 4;
+    width: auto;
+}
+
+#exlidSearchRibbon div.EXLSearchTabsContainer {
+    height: auto;
+}
+
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+    display: flex;
+    position: relative;
+    border: 1px solid #ccc;
+    padding-right: 0;
+    border-radius: 0 4px 4px 0;
+    height: auto;
+}
+
+
+#exlidSearchRibbon input {
+    border: none;
+    background-color: #fff;
+    box-shadow: none;
+    padding: .5em;
+    margin-bottom: initial;
+    transition: border-color 150ms ease;
+    display: block;
+    font-family: "PT Serif",serif;
+    height:  auto;
+    font-size:  .9em;
+}
+
+#exlidSearchRibbon input.submit, #exlidAdvancedSearchRibbon input.submit {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #002878;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0));
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "PT Sans",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: .25em .5em;
+    height: 100%;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0));
+    transition: background-color 150ms ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#exlidSearchRibbon input.submit {
+    border-radius: 0 3px 3px 0;
+}
+
+/* hide mobile facets select field; facets are displayed below results on mobile */
+#EXLFacetsMobile {
+/*
+    position: absolute;
+    top: 2.5em;
+    left: 0;
+*/
+    display: none;
+}
+
+#EXLFacetsMobile select {
+    font-size: .9em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: .25em;
+    background-color: transparent;
+}
+/* ---- */
+
+#exlidAdvancedSearchRibbon input.submit{
+    width: auto;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input {
+    background-image: none;
+    color: #333;
+    background-color: #f5f5f5
+}
+
+#exlidHeaderSearchLimits {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    height: auto;
+    display: block;
+}
+
+#exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
+    width: auto;
+}
+
+#exlidHeaderSearchLimits fieldset {
+    width: auto;
+    padding: .5em 0;
+}
+
+#exlidHeaderSearchLimits select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: transparent;
+    height: 34px;
+    color: initial;
+    font-family: "PT Serif",serif;
+    margin-bottom:  0em;
+    font-size: 1.1em;
+    padding: .25em;
+}
+
+.EXLSearchFieldRibbonBrowseSearchLink, .EXLSearchFieldRibbonAdvancedSearchLink {
+    float: none;
+    width: auto;
+    padding: .5em 0;
+}
+
+.EXLSearchFieldRibbonAdvancedSearchLink {
+    margin-top: 0;
+}
+
+@media (min-width: 800px) {
+
+    .EXLSearchFieldRibbonAdvancedSearchLink {
+        grid-row: 2 / span 2;
+        grid-column: 2 / span 1;
+    }
+
+    .EXLSearchFieldRibbonBrowseSearchLink {
+        grid-row: 3 / span 2;
+        grid-column: 2 / span 1;
+    }
+
+}
+
+.EXLSearchFieldRibbonAdvancedSearchLink a.EXLSearchFieldRibbonAdvancedTwoLinks {
+    padding-top: 0;
+}
+
+.EXLSearchFieldRibbonFormSelectedCollection {
+    height: 1.25em;
+}
+
+@media (min-width: 640px) {
+    .EXLSearchFieldRibbonFormSelectedCollection {
+        height: auto;
+    }
+}
+
+.EXLSearchFieldRibbonFormCollectionsList {
+    position: absolute;
+    top: 2em;
+    width: auto;
+}
+.EXLSearchFieldRibbonFormSelectedCollectionLabel a {
+    font-size: .8em;
+    text-decoration: none;
+}
+
+.EXLSearchFieldRibbonFormCollectionsList {
+    font-size: .8em;
+}
+
+#scopesList {
+    position: relative;
+}
+
+/* Home Container Styles */
+#exlidHomeContainer {
+    width: auto;
+}
+
+#exlidHomeContainer, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
+    color: #333;
+    padding: .5em;
+}
+
+#exlidHomeContainer h1 {
+    font-size: 2.01136em;
+    color: inherit;
+}
+
+#exlidHomeContainer h2 {
+    font-size: 1.74901em;
+    color: inherit;
+}
+
+#exlidHomeContainer h3 {
+    font-size: 1.52087em;
+    color: inherit;
+}
+
+#exlidHomeContainer h4 {
+    font-size: 1.3225em;
+    color: inherit;
+}
+
+#global-nav {
+    display:  block;
+    width:  100%;
+    position:  absolute;
+    top: 0;
+}
+
+#global-nav ul.links {
+    display: flex;
+    list-style:  none;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #ccc;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 0.8em;
+}
+
+
+#global-nav ul.links li {
+    padding: .5em;
+}
+
+#global-nav ul.links li a {
+    text-decoration: none;
+}
+
+
+#exlidHeaderTile {
+    flex-basis: 100%;
+    padding-left: 0;
+    padding-top: 0;
+    z-index: 0;
+    float:  none;
+}
+
+
+#exlidHeaderContainer {
+    position: relative;
+    /* margin-top: -1em; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#exlidMainMenuTile {
+    flex-basis: 100%;
+    margin-top: 0;
+    /* order: 1; */
+    float: none;
+    margin: 0 1em;
+}
+
+
+
+#exlidMainMenuTile div.EXLMainMenuContainer {
+    float: none;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    width: 100%;
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-size: 1em; */
+    text-align: right;
+}
+
+#exlidMainMenuRibbon {
+    padding: 0;
+    display: flex;
+    width: auto;
+    float: none;
+    justify-content: flex-end;
+}
+
+#exlidMainMenuRibbon li {
+    display: inline-block;
+    padding: 0;
+    border-right: 1px solid #ccc;
+    padding: 0 .5em;
+    margin: .5em 0;
+    text-align: center;
+}
+
+#exlidMainMenuRibbon li:first-child {
+    margin-left: 0;
+}
+
+#exlidMainMenuRibbon li:last-child {
+    margin-right: 0;
+    border-right: none;
+
+}
+
+#exlidMainMenuRibbon li span {
+    border: none;
+    padding: 0;
+}
+
+
+#exlidMainMenuRibbon li a {
+    color: #002878;
+    text-decoration:  underline;
+    padding:  0;
+}
+
+.EXLResultsContainer div.EXLResultsTile {
+    width: 100%;
+    border: none;
+    float: none;
+    padding:  0;
+}
+
+/* Colors for availability */
+.EXLResultsList em.EXLResultStatusAvailable, .EXLResultsList em.EXLResultStatusNotAvailable, .EXLResultsList em.EXLResultStatusMaybeAvailable {
+    background-image: none;
+    padding-left: 0;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.EXLResultsList em.EXLResultStatusAvailable {
+    color: #468847 ;
+}
+
+.EXLResultsList em.EXLResultStatusNotAvailable {
+    color: #b94a48 ;
+}
+
+.EXLResultsList em.EXLResultStatusMaybeAvailable {
+    color: #c09853 ;
+}
+/* ---- */
+
+.EXLFacetTile {
+    width: auto;
+    float: none;
+}
+
+@media (min-width: 640px) {
+    .EXLResultsContainer div.EXLResultsTile {
+        width: 70%;
+        border-left: 1px solid #D7DDE3;
+        padding-left: 1%;
+        float: right;
+    }
+    .EXLFacetTile {
+        width: 20%;
+        float: left;
+    }
+}
+
+.EXLFacetContainer {
+    font-family: inherit;
+}
+
+.EXLFacetContainer h1 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.EXLFacetContainer h3 {
+    font-size: 1em;
+    font-weight:  400;
+}
+.EXLFacetContainer h4 {
+    color: #333;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+
+.EXLFacetContainer ol li {
+    line-height: 1.75;
+}
+
+.EXLResultsHeader h1 {
+    font-weight: 400;
+}
+
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
+    z-index:  auto;
+}
+
+.EXLResultsList h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.EXLResultsList h3 {
+    font-family: 'PT Serif', serif;
+}
+
+#exlidResultsTable .EXLTabsRibbon {
+    display: none;
+}
+
+
+#exlidAdvancedSearchTile {
+    background: none;
+    border: none;
+    font-size: 1em;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonPreFilters {
+    background: none;
+    border-top: 1px;
+    border: none;
+}
+/* Facets Lightbox */
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow div.EXLCheckboxGroup {
+    display: inline-block;
+    width: 25%;
+}
+
+.EXLFacetsLightboxTabsRibbon {padding: 0;}
+
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
+    width: 25%;
+}
+
+.EXLFacetsLightboxTabsRibbon span {
+    display: inline-block;
+    margin: 0;
+}
+
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonExclude {
+    width: 25%;
+    margin: 0;
+}
+
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"] {
+    margin: 0;
+    width: auto;
+}
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow span.legend {
+    margin: 0;
+}
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkExclude {
+    margin: 0;
+}
+
+#exlidFacetsLightboxForm {
+    margin: 0 1em;
+}
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkInclude {
+    margin: 0;
+}
+
+#exlidFacetsLightboxTile {
+    max-width: 100vw;
+}
+
+/* Footer */
+
+footer#site-footer p,footer#site-footer ul.footer-links {
+    font-size: .6875em;
+    font-family: "PT Sans Caption",sans-serif
+}
+
+footer#site-footer p {
+    margin-top: 1em;
+    display: block;
+    padding: 0 1.5em;
+}
+
+ul.footer-links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+ul.footer-links li {
+    padding: 1em
+}
+
+ul.footer-links li a {
+    text-decoration: none
+}
+
+ul.footer-links.footer-links-sites {
+    background-color: #5e5d5b;
+    color: #fff;
+    border-top: 2px solid #fff
+}
+
+ul.footer-links.footer-links-sites li {
+    padding: .25em 1em
+}
+
+ul.footer-links.footer-links-sites li:not(:first-child):hover,ul.footer-links.footer-links-sites li:not(:first-child):active,ul.footer-links.footer-links-sites li:not(:first-child):focus {
+    background-color: #ccc
+}
+
+ul.footer-links.footer-links-sites li:not(:first-child):hover a,ul.footer-links.footer-links-sites li:not(:first-child):active a,ul.footer-links.footer-links-sites li:not(:first-child):focus a {
+    color: #5e5d5b
+}
+
+ul.footer-links.footer-links-sites a {
+    color: currentColor
+}
+
+ul.footer-links.footer-links-library {
+    background-color: #ccc;
+    color: #fff;
+    border-top: 2px solid #fff
+}
+
+ul.footer-links.footer-links-library li:hover,ul.footer-links.footer-links-library li:active,ul.footer-links.footer-links-library li:focus {
+    background-color: #999
+}
+
+ul.footer-links.footer-links-library li:hover a,ul.footer-links.footer-links-library li:active a,ul.footer-links.footer-links-library li:focus a {
+    color: #5e5d5b
+}
+
+ul.footer-links.footer-links-library a {
+    color: currentColor
+}
+
+ul.footer-links.footer-links-emory {
+    background-color: #ccc
+}
+
+ul.footer-links.footer-links-emory li:hover,ul.footer-links.footer-links-emory li:active,ul.footer-links.footer-links-emory li:focus {
+    background-color: #999
+}
+
+ul.footer-links.footer-links-emory li:hover a,ul.footer-links.footer-links-emory li:active a,ul.footer-links.footer-links-emory li:focus a {
+    color: #fff
+}
+
+
+.EXLFooterTile {
+    display: block;
+    min-height: auto;
+    margin: 1em auto 0 auto;
+    border-top: none;
+    font-size: inherit;
+    background-image:  none;
+}
+
+.EXLFooterTile ul {
+    float: none;
+    padding: 0;
+}
+
+.EXLFooterTile li {
+    border: none;
+}
+
+.EXLSearchFieldRibbonFormFields {
+    width: 100%;
+    float:  none;
+    height:  auto;
+}
+
+.EXLTabsRibbon div li.EXLResultTab a{
+    color: #002878;
+    padding: .5em;
+}
+
+.EXLTabsRibbon div li.EXLResultSelectedTab {
+    background:  none;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+}
+
+.EXLTabsRibbon div li.EXLResultSelectedTab a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+.EXLResultTabContainer div.EXLTabHeader {
+    background:  none;
+    border:  1px solid #ccc;
+    border-bottom:  none;
+    padding-bottom: 0;
+}
+
+.EXLTabHeader div.EXLTabHeaderContent {
+    padding: .25em 0 0 .5em;
+    color:  #002878;
+}
+
+body.EXLFullView div.EXLTabContent {
+    border-color: #ccc;
+    border-radius: 0 0 3px 3px;
+}
+
+
+.EXLSearchFieldRibbonFormSubmitSearch {
+    width: auto;
+}
+
+
+#exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field {
+    padding: 0 .5em;
+    line-height: 1.5;
+    float: left;
+    margin: 0;
+    box-shadow: none;
+}
+
+.EXLSearchFieldRibbonFormBrowseSearchFor {
+    border: 1px solid #ccc;
+    border-radius: 0 3px 3px 0;
+}
+
+.EXLSearchFieldRibbonFormSelectedBrowse {
+    border: 1px solid #ccc;
+    border-right: 0px;
+    border-radius: 3px 0 0 3px;
+}
+
+.EXLSearchFieldRibbonFormSelectedLabelBrowse a {
+    text-decoration:  none;
+}
+
+.EXLSearchFieldRibbonFormBrowseList {
+    position: absolute;
+    top: 2em;
+}
+
+#exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
+    position: relative;
+    border: none;
+    padding: 0;
+}
+
+#exlidAdvancedSearchRibbon {
+    margin: 0;
+}
+
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
+    border: none;
+    margin-top: 0;
+}
+
+#exlidAdvancedSearchRibbon input, #exlidAdvancedSearchRibbon select {
+    border: 1px solid #ccc;
+}
+
+/* lightbox */
+.exliPrimoLightBoxdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#exliPrimoLightBoxdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#exliWhiteContent {
+    position: initial;
+    width: auto;
+    left: initial;
+    top: initial !important;
+    height: auto;
+}
+.EXLInstititutionSelection {
+    position: fixed;
+    left: initial;
+    top: initial !important;
+    max-width: 600px;
+    width: 90%;
+}
+/* end lightbox */
+
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+    border-left: none;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow input {
+    height:  auto;
+    font-size: 1em;
+    padding: .5em;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch {
+    margin-left: .5em;
+}
+
+/* Alerts */
+
+.alert {
+    color: #c09853;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    border-radius: 3px
+}
+
+.alert h1,.alert h2,.alert h3,.alert h4,.alert h5,.alert h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: currentColor;
+    text-align: center
+}
+
+.alert a {
+    color: currentColor
+}
+
+.alert-success {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+.alert-danger,.alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7
+}
+
+.alert-info {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1
+}
+
+/* record pages */
+body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
+    font-size: 2.01136em;
+}
+
+.EXLTabsRibbon div ul {
+    font-family:  'PT Sans', sans-serif;
+    background-color: #e4e6f0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    .EXLTabsRibbon div ul {
+        font-size:.8em;
+        position: initial
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .EXLTabsRibbon div ul {
+        -ms-flex-pack:distribute;
+        justify-content: space-around
+    }
+}
+
+
+.EXLTabsRibbon div li.EXLResultTab {
+    box-sizing: border-box;
+    height: auto;
+    text-align: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: .5em;
+    border: 1px solid #ccc;
+    border-top-color: #f5f5f5;
+    border-left-color: #f5f5f5;
+    transition: background-color 0.2s ease-out,color 0.2s ease-out;
+}
+
+@media screen and (min-width: 480px) {
+    .EXLTabsRibbon div li.EXLResultTab {
+        -ms-flex-preferred-size:50%;
+        flex-basis: 50%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .EXLTabsRibbon div li.EXLResultTab {
+        -ms-flex-preferred-size:auto;
+        flex-basis: auto;
+        -ms-flex-positive: 1;
+        flex-grow: 1
+    }
+}
+
+.EXLTabsRibbon div li.EXLResultTab a {
+    text-decoration: none
+}
+
+.EXLTabsRibbon div li.EXLResultTab:hover {
+    background-color: #6384c6
+}
+
+.EXLTabsRibbon div li.EXLResultTab:hover a {
+    color: #fff
+}
+.EXLTabsRibbon div {
+    width: 100%;
+}
+
+body.EXLFullView div.EXLTabsRibbon {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hidden tabs */
+.EXLTabsRibbon div li.EXLResultTab.EXLReviewsTab, .EXLTabsRibbon div li.EXLResultTab.EXLRecommendTab, .EXLTabsRibbon div li.EXLResultTab.EXLLocationsTab {
+    display: none;
+}
+/* ---- */
+
+.EXLTabsRibbon div li.EXLResultSelectedTab {
+    background: #6384c6;
+}
+
+.EXLTabsRibbon div li.EXLResultSelectedTab a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Action/SendTo menu */
+.EXLTabHeader div.EXLTabHeaderButtons li {
+    background-image: none;
+}
+
+.EXLTabHeader div.EXLTabHeaderButtons li span {
+    background-image: none;
+}
+
+.EXLTabHeaderButtonSendTo img {
+    padding-left: .5em;
+}
+
+/* Suppress Help link */
+#exlidMainMenuRibbon li.EXLLastItem {
+    display: none;
+}
+/* ---- */
+
+/* ejournals A to Z */
+#exlidSearchTile.EXLSearchEJorunals {
+    background: none;
+    border-top:  none;
+}
+
+#exlidSearchTile.EXLSearchEJorunals fieldset {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.EXLSearchEJorunals #exlidSearchRibbon {
+    display: block;
+}
+
+
+#exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ {
+    margin: 0 auto;
+}
+
+#exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ li {
+    float:  none;
+}
+
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
+    background:  none;
+    color: #002878;
+    border: none;
+    padding: 0 .25em;
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a.EXLMainMenuITEMATOZClose {
+    display: none;
+}
+
+#exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbonContent {
+    margin-left: auto;
+    width: calc(100% - 11em);
+    float: none;
+}
+
+.EXLAlmaAz .EXLResultsContainer div.EXLResultsTile {
+    border-left: none;
+    padding-left: 0;
+}
+
+/* Permalink text box fix */
+
+#exlidPopupPermalinkContainer {
+    width: 100%;
+    max-width: 960px;
+}
+
+.EXLPopupPermalink {
+    position: relative;
+    width: 99%;
+}
+
+.EXLPopupPermalink div.EXLPopupRow {
+    position: absolute;
+    top: .5em;
+    left: 5em;
+    width: 75%;
+}
+
+.EXLPopupPermalinkHeader h1 {
+    line-height: 1.5;
+}
+.EXLPermalinkURL input {
+    height: auto;
+    width: 100%;
+}
+
+/* Citation Linker */
+#exliGreyOverlay {
+    max-width: none;
+    z-index: auto;
+}
+
+.EXLCitationLinkerTabsRibbon {
+    border-bottom: 1px solid #ccc;
+}
+
+.EXLCitationLinkerTabsRibbon div {
+    width: 100%;
+}
+.EXLCitationLinkerTabsRibbon div ul.EXLCitationLinkerTabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0 auto;
+}
+
+.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
+    box-sizing: border-box;
+    flex-basis: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+@media (min-width: 480px) {
+    .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 640px) {
+    .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
+        flex-basis: auto;
+        border-radius: 3px 3px 0 0;
+    }
+}
+
+.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab a {
+    color: #002878;
+}
+
+.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
+    background-color: #002878;
+    margin: 0;
+}
+
+.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a {
+    color: #fff;
+    font-weight: 400;
+}
+
+/* My Account */
+body.MyAccount > * {
+    min-width: 960px;
+}
+
+.EXLMyAccountTabsRibbon, .EXLMyAccountContainer {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    padding: 0;
+}
+
+@supports (display: grid) {
+    .EXLMyAccountContainer {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .EXLMyAccountMainMenuTile {
+        grid-column: 1 / span 1;
+        width: 100%;
+    }
+
+    .EXLMyAccountMainContainer, .EXLMyAccountContainer .EXLMyAccountQueriesMainContainer {
+        grid-column: 2 / span 1;
+        margin: 0;
+    }
+    /* set iframe for eshelf details to span all grid columns */
+    .iframex {
+        grid-column: 1 / span 2;
+    }
+}
+
+.EXLMyAccountMainContainer div.EXLMyAccountMainHeader {
+    padding-bottom: 1em;
+}
+
+#exlidMyAccountContainer table {
+    grid-column: 1 / span 2;
+}
+
+#exlidMyAccountContainer table #foldersDiv {
+    width: 25%;
+}
+
+.EXLMyAccountMainContainer table thead tr th[scope=col] {
+    text-align: center;
+    padding: .5em;
+}
+
+.EXLMyAccountMainContainer table tbody td {
+    padding: .5em;
+}
+
+.EXLMyAccountMainContainer td.MyAccount_Loans_ {
+    text-align: center;
+}
+
+.EXLMyAccountMainContainer td.MyAccount_Loans_select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EXLMyAccountMainContainer td.MyAccount_Loans_select input[type=checkbox] {
+    display: block;
+}
+
+.EXLMyAccountMainContainer td.MyAccount_Loans_dueDate, .EXLMyAccountMainContainer td.MyAccount_Loans_dueHour {
+    text-align: right;
+}
+.EXLMyAccountMainMenuContainer {
+    width: 226.5px;
+}
+
+.noteBubble .noteBubble_content INPUT.note_submit {
+    height: auto;
+    width: auto;
+}
+
+.noteBubble .noteBubble_content INPUT.note_submit_o {
+    height: auto;
+    width: auto;
+    background-image:none;
+}
+
+.foldersOverflow {
+  overflow: inherit;
+}
+
+.folders_new LI {
+    padding: 0;
+}
+
+/* reset checkbox width in my account table */
+.EXLMyAccountMainContainer table input[type=checkbox] {
+    width: auto;
+}
+
+/* suppress My Databases tab */
+#exlidMyDatabasesTab {
+    display:  none;
+}
