@@ -1,0 +1,18 @@
+{
+    "production": {
+        "enabled": true,
+        "target element": "#exlidMainMenuTile",
+        "logged in": false,
+        "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
+        "heading": "Georgia Tech Resources Unavailable",
+        "message": "<p>Direct requesting for Georgia Tech items in discoverE will not be available from Monday, August 7th, through Wednesday, August 9th. Please contact <strong><a href=\"http://web.library.emory.edu/using-the-library/interlibrary-loan/index.html\">Interlibrary Loan<\/a></strong> for assistance.<\/p>"
+    },
+    "sandbox": {
+        "enabled": true,
+        "target element": "#exlidMainMenuTile",
+        "logged in": false,
+        "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
+        "heading": "Georgia Tech Resources Unavailable",
+        "message": "<p>Direct requesting for Georgia Tech items in discoverE will not be available from Monday, August 7th through Wednesday, August 9th. Please contact <strong><a href=\"http://web.library.emory.edu/using-the-library/interlibrary-loan/index.html\">Interlibrary Loan<\/a></strong> for assistance.<\/p>"
+    }
+}
