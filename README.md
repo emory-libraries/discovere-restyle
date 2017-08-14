@@ -2,7 +2,7 @@
 
 ## Instructions for Submitting Changes
 
-1.  You should develop all changes in a separate branch.
+1.  You should develop all changes in a separate [branch](http://lmgtfy.com/?q=git+branch "Let me Google that for you").
 2.  Test your changes in discoveretest.emory.edu before submitting the pull request (PR).
 3.  When submitting your PR, incude a URL to `discoveretest.emory.edu`, where reviewers can observe and test the change as well as the code submitted in the PR.
 
