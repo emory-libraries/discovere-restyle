@@ -1214,6 +1214,11 @@ body.EXLFullView div.EXLTabsRibbon {
 .EXLTabHeaderButtonSendTo img {
     padding-left: .5em;
 }
+/* Fix Z-index for action menu on virtual browse */
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
+    z-index: 100 !important;
+}
+/*----*/
 
 /* Suppress Help link */
 #exlidMainMenuRibbon li.EXLLastItem {
