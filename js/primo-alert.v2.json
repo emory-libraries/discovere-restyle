@@ -4,15 +4,15 @@
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "Georgia Tech Resources Unavailable; plus, DiscoverE has a new style",
-        "message": "<p>Direct requesting for Georgia Tech items in discoverE is currently not available. Please contact <a href=\"http://web.library.emory.edu/using-the-library/interlibrary-loan/index.html\">Interlibrary Loan<\/a> for assistance.</p> <p>You may notice some improvements to the styling of discoverE; basic functionality is the same. Please feel free to <a href=\"http:\/\/web.library.emory.edu\/research-learning\/research-tools\/discoverE\/discovere-feedback.html\">leave a comment or report a problem</a>.</p>"
+        "heading": "Direct Request for Georgia Tech items; plus, DiscoverE has a new style",
+        "message": "<p>Direct requesting for Georgia Tech items in discoverE is now available. Please contact the <a href=\"http://emory.libanswers.com\>Library Service Desk<\/a> if you need assistance.</p> <p>You may notice some improvements to the styling of discoverE; basic functionality is the same. Please feel free to <a href=\"http:\/\/web.library.emory.edu\/research-learning\/research-tools\/discoverE\/discovere-feedback.html\">leave a comment or report a problem</a>.</p>"
     },
     "sandbox": {
         "enabled": true,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "Georgia Tech Resources Unavailable; plus, DiscoverE has a new style",
-        "message": "<p>Direct requesting for Georgia Tech items in discoverE is currently not available. Please contact <a href=\"http://web.library.emory.edu/using-the-library/interlibrary-loan/index.html\">Interlibrary Loan<\/a> for assistance.</p> <p>You may notice some improvements to the styling of discoverE; basic functionality is the same. Please feel free to <a href=\"http:\/\/web.library.emory.edu\/research-learning\/research-tools\/discoverE\/discovere-feedback.html\">leave a comment or report a problem</a>.</p>"
+        "heading": "Direct requesting for Georgia Tech items; plus, DiscoverE has a new style",
+        "message": "<p>Direct requesting for Georgia Tech items in discoverE is now available. Please contact the <a href=\"http://emory.libanswers.com\>Library Service Desk<\/a> if you need assistance.</p> <p>You may notice some improvements to the styling of discoverE; basic functionality is the same. Please feel free to <a href=\"http:\/\/web.library.emory.edu\/research-learning\/research-tools\/discoverE\/discovere-feedback.html\">leave a comment or report a problem</a>.</p>"
     }
 }
