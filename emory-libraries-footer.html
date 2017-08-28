@@ -42,7 +42,20 @@
 <script type="text/javascript">
   jQuery(document).ready(function () {
     // Set environment variable for primo banner JSON
-    var environment = "production";
+    var hostname = location.hostname;
+
+    switch (hostname) {
+      case 'discovere.emory.edu':
+        var environment = "production";
+        break;
+      case 'emory-primosb-alma.hosted.exlibrisgroup.com':
+        var environment = "sandbox";
+        break;
+      case 'discoveretest.emory.edu':
+        var environment = "sandbox";
+        break;
+    }
+
     if (typeof(Storage) !== "undefined"){
       // var currentSessionID = jQuery.PRIMO.session.sessionId;
       var isLoggedIn=jQuery.PRIMO.session.user.isLoggedIn(),
