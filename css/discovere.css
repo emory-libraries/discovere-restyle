@@ -1452,6 +1452,10 @@ body.MyAccount > * {
     padding: 0;
 }
 
+.folder_details .itemsList_left input {
+    width: auto;
+}
+
 /* reset checkbox width in my account table */
 .EXLMyAccountMainContainer table input[type=checkbox] {
     width: auto;
