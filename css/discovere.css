@@ -769,6 +769,10 @@ body > div {
     background: none;
     border-top: 1px;
     border: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: .75em;
 }
 /* Facets Lightbox */
 #exlidFacetsLightboxTile div.EXLFacetsLightboxListRow div.EXLCheckboxGroup {
@@ -986,6 +990,10 @@ body.EXLFullView div.EXLTabContent {
     margin: 0;
 }
 
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow fieldset span.EXLAdvancedSearchFormRowInlineInput {
+    display: inline;
+    width: auto;
+}
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
     border: none;
@@ -994,6 +1002,20 @@ body.EXLFullView div.EXLTabContent {
 
 #exlidAdvancedSearchRibbon input, #exlidAdvancedSearchRibbon select {
     border: 1px solid #ccc;
+    display: inline;
+    width: auto;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1, #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+    flex-basis: 100%;
+    width: auto;
+    padding: 0;
+}
+
+@media (min-width: 760px) {
+    #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1, #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+        flex-basis: 50%;
+    }
 }
 
 /* lightbox */
