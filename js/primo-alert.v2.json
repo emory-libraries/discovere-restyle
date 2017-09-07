@@ -7,12 +7,12 @@
         "heading": "Direct Request for Georgia Tech items; plus, DiscoverE has a new style",
         "message": "<p>Direct requesting for Georgia Tech items in discoverE is now available. Please contact the <a href=\"http://emory.libanswers.com\">Library Service Desk<\/a> if you need assistance.</p> <p>You may notice some improvements to the styling of discoverE; basic functionality is the same. Please feel free to <a href=\"http:\/\/web.library.emory.edu\/research-learning\/research-tools\/discoverE\/discovere-feedback.html\">leave a comment or report a problem</a>.</p>"
     },
-    "sandbox": {
+"sandbox": {
         "enabled": true,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "Direct requesting for Georgia Tech items; plus, DiscoverE has a new style",
-        "message": "<p>Direct requesting for Georgia Tech items in discoverE is now available. Please contact the <a href=\"http://emory.libanswers.com\">Library Service Desk<\/a> if you need assistance.</p> <p>You may notice some improvements to the styling of discoverE; basic functionality is the same. Please feel free to <a href=\"http:\/\/web.library.emory.edu\/research-learning\/research-tools\/discoverE\/discovere-feedback.html\">leave a comment or report a problem</a>.</p>"
+        "heading": "DiscoverE August/September Update",
+        "message": "<p><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2017/09/07/discovere-update-sunday-september-10th/\">DiscoverE will be updated on Sunday, September 10th.<\/a></p>"
     }
 }
