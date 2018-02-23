@@ -1,18 +1,18 @@
 {
- “production”: {
-        "enabled": false,
-        "target element": "#exlidMainMenuTile",
-        "logged in": false,
-        "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": “DiscoverE Update Sunday Feb. 25 2018”,
-        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2018/02/21/discovere-update-sunday-february-25-2018/\”>DiscoverE will be updated on Sunday, February 25.<\/a></b></p>"
-    }
-"sandbox": {
+ "production": {
         "enabled": true,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": “DiscoverE Update Sunday Feb. 25 2018”,
-        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2018/02/21/discovere-update-sunday-february-25-2018/\”>DiscoverE will be updated on Sunday, February 25.<\/a></b></p>"
+        "heading": "DiscoverE Update Sunday Feb. 25 2018",
+        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2018/02/21/discovere-update-sunday-february-25-2018/\">DiscoverE will be updated on Sunday, February 25.  Click for details.<\/a></b></p>"
+        },
+"sandbox": {        
+        "enabled": false,
+        "target element": "#exlidMainMenuTile",
+        "logged in": false,
+        "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
+        "heading": "DiscoverE Update Sunday Feb. 25 2018",
+        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2018/02/21/discovere-update-sunday-february-25-2018/\">DiscoverE will be updated Sunday, February 25. Click for details.<\/a></b></p>"
     }
 }
