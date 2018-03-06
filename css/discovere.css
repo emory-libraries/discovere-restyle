@@ -305,7 +305,7 @@ body > div {
     border:  none;
 }
 
-#exlidSearchTileWrapper {
+.EXLCustomLayoutContainer.EXLHeader #exlidSearchTileWrapper {
     flex-basis: 100%;
     margin: 0 .5em;
     /* order: 3; */
@@ -705,7 +705,6 @@ body > div {
         width: 70%;
         border-left: 1px solid #D7DDE3;
         padding-left: 1%;
-        float: right;
     }
     .EXLFacetTile {
         width: 20%;
