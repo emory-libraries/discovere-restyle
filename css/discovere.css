@@ -287,9 +287,6 @@ body > div {
     }
 
 }
-.EXLResultMediaTYPEarchives .multipleCoverImageContainer {
-    background-image: url(../images/discoverE/icon_archive.png);
-}
 
 #exlidUserAreaRibbon li span.EXLUserAreaStart {
     display: none;
@@ -298,7 +295,6 @@ body > div {
 #exlidSearchBanner {
     display: none;
 }
-
 
 #exlidSearchTile {
     background-image: none;
