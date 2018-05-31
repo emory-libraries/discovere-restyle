@@ -288,7 +288,6 @@ body > div {
 
 }
 
-
 #exlidUserAreaRibbon li span.EXLUserAreaStart {
     display: none;
 }
@@ -296,7 +295,6 @@ body > div {
 #exlidSearchBanner {
     display: none;
 }
-
 
 #exlidSearchTile {
     background-image: none;
@@ -693,6 +691,12 @@ body > div {
 .EXLResultsList em.EXLResultStatusMaybeAvailable {
     color: #c09853 ;
 }
+
+/* Custom Archives icon */
+.EXLResultMediaTYPEarchives .multipleCoverImageContainer {
+    background-image: url(../images/icon_archive.png);
+}
+
 /* ---- */
 
 .EXLFacetTile {
