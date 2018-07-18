@@ -1038,6 +1038,7 @@ body.EXLFullView div.EXLTabContent {
     position: fixed;
     top: 0;
     left: 0;
+    overflow-y: scroll;
 }
 #exliWhiteContent {
     position: initial;
