@@ -1333,6 +1333,10 @@ body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
     z-index: auto;
 }
 
+.EXLCitationLinkerHeader h1 {
+    font-size: 2.01136em;
+}
+
 .EXLCitationLinkerTabsRibbon {
     border-bottom: 1px solid #ccc;
 }
