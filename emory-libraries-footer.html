@@ -195,10 +195,10 @@
         console.log("merged_record_id:"+merged_record_id);
         if (emory_item){
 
+             report_alma_error="https://kleene.library.emory.edu/cgi-bin/report_alma_error?doc_id="+merged_record_id;
+             $('.EXLDetailsLinks ul').append('<li><span class="EXLDetailsLinksBullet"></span><span class="EXLDetailsLinkTitle"><a href="'+report_alma_error+'" target="_blank" id="report_error_bg" title="Report an error about this record">Report an error</a></span></li>');
              full_view_bg="https://kleene.library.emory.edu/cgi-bin/full_view_primo?doc_id="+merged_record_id;
              $('.EXLDetailsLinks ul').append('<li><span class="EXLDetailsLinksBullet"></span><a href="'+full_view_bg+'" target="_blank" id="full_view_bg" title="See all the information for this tile">Full View</a></li>');
-             report_alma_error="https://kleene.library.emory.edu/cgi-bin/report_alma_error?doc_id="+merged_record_id;
-//             $('.EXLDetailsLinks ul').append('<li><span class="EXLDetailsLinksBullet"></span><a href="'+report_alma_error+'" target="_blank" id="full_view_bg" title="Report an error about this record">Report an error</a></li>');
              staff_view_bg="https://kleene.library.emory.edu/cgi-bin/get_alma_bib?doc_id="+merged_record_id+"&format=marcedit";
              sendtophone_bg="https://kleene.library.emory.edu/cgi-bin/sendtophone?doc_id="+merged_record_id;
              qrcode_bg="https://kleene.library.emory.edu/cgi-bin/qrcode?doc_id="+merged_record_id;
