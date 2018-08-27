@@ -1,6 +1,6 @@
 {
  "production": {
-        "enabled": true,
+        "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
@@ -8,7 +8,7 @@
         "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2018/08/09/discovere-improvements-august-10-12//\">DiscoverE improvements coming August 10-12. Click for details.<\/a></b></p>"
         },
 "sandbox": {        
-        "enabled": true,
+        "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
