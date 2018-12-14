@@ -4,7 +4,7 @@
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "Library Service Center delivery delays possible Dec. 17 - 21",
+        "heading": "<p>Library Service Center delivery delays possible Dec. 17 - 21</p><p>DiscoverE maintenance Dec. 16, 1 - 6 a.m.</p>",
         "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2018/12/07/library-service-center-deliveries-delayed/\">Click for details.<\/a></b></p>"
         },
 "sandbox": {        
