@@ -1,14 +1,14 @@
 {
  "production": {
-        "enabled": true,
+        "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "<p>Library Service Center delivery delays possible Dec. 17 - 21</p><p>DiscoverE maintenance Dec. 16, 1 - 5 a.m.</p>",
-        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/?p=416&preview=true\">Click for details.<\/a></b></p>"
+        "heading": "<p>Woodruff Library and the Health Sciences Library will be open Dec 26th – Dec 29th. The Library Service Center will resume deliveries on January 2nd.</p>",
+        "message": "<p><b><a href=\"http://web.library.emory.edu/using-the-library/visiting-the-library/hours/full-listing.html\">Click here for more information on library hours.<\/a></b></p>"
         },
 "sandbox": {        
-        "enabled": true,
+        "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
