@@ -12,6 +12,7 @@
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "message": "<p>Due to Emory University Commencement, the Library Service Center (LSC) deliveries will not be available on Monday, May 13th. Pickup and deliveries from the LSC will return to the normal schedule on Tuesday morning, May 14th. Please contact the Library Service Desk at libraryservicedesk@emory.edu for further assistance.</p>"
+        "heading": "<p>Library Service Center (LSC) Deliveries Cancelled 05\/13\/2019</p>",
+        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/05/06/library-service-center-delivery-cancelled-may-13/\">Details</a></b></p>"
     }
 }
