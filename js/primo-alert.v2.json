@@ -4,15 +4,15 @@
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "<p>discover<i>E</i> Update February 24 2019</p>",
-        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/02/12/discovere-update-sunday-february-24-2019/\">Details</a></b></p>"
+        "heading": "<p>Library Service Center (LSC) Delivery Disruption on May 13</p>",
+        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/05/06/library-service-center-delivery-cancelled-may-13/\">Details</a></b></p>"
         },
 "sandbox": {        
         "enabled": true,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "<p>Library Service Center (LSC) Deliveries Cancelled 05\/13\/2019</p>",
+        "heading": "<p>Library Service Center (LSC) Delivery Disruption on May 13</p>",
         "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/05/06/library-service-center-delivery-cancelled-may-13/\">Details</a></b></p>"
     }
 }
