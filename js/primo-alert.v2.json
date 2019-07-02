@@ -1,18 +1,18 @@
 {
  "production": {
-        "enabled": false,
+        "enabled": true,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "<p>DiscoverE Update Sunday June 2, 2019</p>",
-        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/05/21/discovere-update-sunday-june-2-2019/\">Details</a></b></p>"
+        "heading": "<p>LSC Deliveries Cancelled July 4-5, 2019</p>",
+        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/07/02/lsc-deliveries-holiday/\">Details</a></b></p>"
         },
 "sandbox": {        
         "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "<p>DiscoverE Update Sunday June 2, 2019</p>",
-        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/05/21/discovere-update-sunday-june-2-2019/\">Details</a></b></p>"
+        "heading": "<p>LSC Deliveries Cancelled July 4-5, 2019</p>",
+        "message": "<p><b><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/07/02/lsc-deliveries-holiday/\">Details</a></b></p>"
     }
 }
