@@ -12,7 +12,7 @@
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "<p> <a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/09/30/discovere-improvements-october-5-7-2019/\" target=\"blank\" ><b>Improvements to DiscoverE October 5-7</b></a> | <a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/08/12/discovere-changes-august-15/\" target=\"blank\"><b>DiscoverE Enhancements</b></a> | <a href=\"https://web.library.emory.edu/research-learning/research-tools/discoverE/discovere-feedback.html\" target=\"blank\"><b>Feedback</b></a></p>",
+        "heading": "<p> <a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/09/30/discovere-improvements-october-5-7-2019/\" target=\"blank\" ><b>Improvements to DiscoverE October 5-7</b></a></p>",
         "message": ""
         }
 }
