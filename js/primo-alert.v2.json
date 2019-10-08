@@ -1,6 +1,6 @@
 {
  "production": {
-        "enabled": true,
+        "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
@@ -8,7 +8,7 @@
         "message": ""
         },
 "sandbox": {        
-        "enabled": true,
+        "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
