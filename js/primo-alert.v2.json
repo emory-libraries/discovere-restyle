@@ -1,6 +1,6 @@
 {
  "production": {
-        "enabled": true,
+        "enabled": false,
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
@@ -12,7 +12,7 @@
         "target element": "#exlidMainMenuTile",
         "logged in": false,
         "patron status": ["01", "02", "03", "10", "20", "23", "04", "25", "24"],
-        "heading": "<p>DiscoverE News</p>",
-        "message": "<p>Read about <a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/08/19/oddity-in-requesting-items-from-georgia-tech-through-discovere/\" target=\"blank\" ><b>Oddities in Georgia Tech Requesting</b></a> and <a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/08/12/discovere-changes-august-15/\" target=\"blank\"><b>DiscoverE August 15 Enhancements</b></a>, or comment on enhancements <a href=\"https://web.library.emory.edu/research-learning/research-tools/discoverE/discovere-feedback.html\" target=\"blank\"><b>here</b></a>.</p>"
+        "heading": "<p><a href=\"https://scholarblogs.emory.edu/librarycoreservices/2019/11/06/discovere-improvements-november-11-2019/\" target=\"blank\">DiscoverE Improvements, Monday Nov. 11</a></p>",
+        "message": ""
         }
 }
