@@ -1109,7 +1109,8 @@ body.EXLFullView div.EXLTabContent {
 .alert-info {
     color: #3a87ad;
     background-color: #d9edf7;
-    border-color: #bce8f1
+    border-color: #bce8f1;
+    font-size: smaller
 }
 
 /* record pages */
